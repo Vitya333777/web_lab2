@@ -1,0 +1,70 @@
+.style-menu {
+    font-weight: bold;
+    font-size: 20px;
+}
+.page {
+    max-width: 1200px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.table {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.header {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-size: 30px;
+    color: #333;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+.btn-group {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+    margin-top: 0; 
+    padding-top: 10px; 
+}
+
+.btn-group .btn {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px 20px;
+    background-color: #7bc2ac;
+    color: #fff; 
+    font-size: 18px; 
+    border-radius: 5px; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.table-container {
+    max-width: 800px;
+    margin: auto; 
+}
+.table-success th:nth-child(2),
+.table-success td:nth-child(2) {
+    padding-left: 50px;
+}
+.table-success th:nth-child(3),
+.table-success td:nth-child(3) {
+    padding-left: 50px;
+}
+.table th,
+.table td {
+    text-align: center;
+}
+.table-bordered td:nth-child(1) {
+    width: 50%;
+}
+.demo-content{
+    padding: 15px;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.mb-4{
+    margin: 15px;
+    max-width: 90%;
+}
